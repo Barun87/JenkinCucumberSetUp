@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite1]">
+  <parameter name="myname" value="Manisha"/>
+  <test name="Test(failed)">
+    <parameter name="myname" value="Manisha"/>
+    <classes>
+      <class name="com.info.arusha.DataProvide">
+        <methods>
+          <include name="getMessages" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.info.arusha.DataProvide -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [suite1] -->

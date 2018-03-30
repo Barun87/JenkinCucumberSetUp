@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite1">
+  <test name="Test">
+  <parameter name="myname" value="Manisha">
+    <classes>
+        <class name="com.info.arusha.DataProvide" >
+        <methods>
+        <include name="getMessages"> </include>
+             <!-- <include name="display"> </include> -->
+        
+       
+        
+        </methods>
+        </class>
+        </classes>
+        </parameter>
+        </test>
+ </suite> 

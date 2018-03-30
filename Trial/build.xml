@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<project name="Trial" basedir="." default="run">
+   
+  
+
+  
+ <target name="run" >
+ <java fork="true" failonerror="yes" classname="Buildexample"/>
+ </target>
+ 
+ 
+</project>
